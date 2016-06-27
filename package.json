@@ -1,0 +1,23 @@
+{
+  "name": "website-tests",
+  "version": "0.1.0",
+  "description": "Web properties tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-mink  --browser chrome",
+    "test": "./node_modules/.bin/cucumber-mink  --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minireference/website-tests.git"
+  },
+  "author": "Ivan Savov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minireference/website-tests/issues"
+  },
+  "homepage": "https://github.com/minireference/website-tests#readme",
+  "dependencies": {
+    "cucumber-mink": "^1.4.0"
+  }
+}
